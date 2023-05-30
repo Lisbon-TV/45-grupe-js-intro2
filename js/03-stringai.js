@@ -10,8 +10,7 @@
 //const lentele2 = ``;
 
 
-const nulis = 0;
-const vienas = 1;
+const vienas = '1';
 const du = 2;
 const trys = 3;
 const keturi = 4;
@@ -35,7 +34,21 @@ let devyni = 9;
 */
 
 
-const test = vienas + " * 1 = " + vienas * vienas;
+
+
+const test ='\
+vienas + " * 1 = " + 1 * 1\r\n\
+vienas + " * 2 = " + 2 * 1\r\n\
+vienas + " * 3 = " + 2 * 1\r\n\
+vienas + " * 4 = " + 2 * 1\r\n\
+vienas + " * 5 = " + 2 * 1\r\n\
+vienas + " * 6 = " + 2 * 1\r\n\
+vienas + " * 7 = " + 2 * 1\r\n\
+vienas + " * 8 = " + 2 * 1\r\n\
+vienas + " * 9 = " + 2 * 1\r\n\
+vienas + " * 2 = " + 2 * 1';
+
+
 
 
 console.log(test);
