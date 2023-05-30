@@ -21,7 +21,23 @@ const septyni = 7;
 const astuoni = 8;
 const devyni = 9;
 
-const test = vienas * vienas; 
+/*
+let nulis = 0;
+let vienas = 1;
+let du = 2;
+let trys = 3;
+let keturi = 4;
+let penki = 5;
+let sesi = 6;
+let septyni = 7;
+let astuoni = 8;
+let devyni = 9;
+*/
+
+
+const test = vienas + " * 1 = " + vienas * vienas;
+
+
 console.log(test);
 
 
