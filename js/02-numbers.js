@@ -88,3 +88,11 @@ console.log(pinige);
 
 pinige = pinige * 4;
 console.log(pinige);
+
+let index =0;
+console.log(index);
+
+console.clear();
+
+p1 + p2 +p3 
+
