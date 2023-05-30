@@ -6,8 +6,8 @@
 // ...
 // 5 * 10 = 20
 
-const lentele1 = '';
-const lentele2 = ``;
+//const lentele1 = '';
+//const lentele2 = ``;
 
 
 const nulis = 0;
@@ -21,8 +21,8 @@ const septyni = 7;
 const astuoni = 8;
 const devyni = 9;
 
-console.log(nulis);
-
+const test = vienas * vienas; 
+console.log(test);
 
 
 
