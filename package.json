@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "stringai": "nodemon ./js/02-stringai.js",
+    "stringai": "nodemon ./js/03-stringai.js",
     "numbers": "nodemon ./js/02-numbers.js",
     "console": "nodemon ./js/01-console.js",
     "dev": "nodemon",

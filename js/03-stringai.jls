@@ -1,0 +1,30 @@
+//uzduotis
+
+// 5 * 1 = 2
+// 5 * 2 = 4
+// 5 * 3 = 6
+// ...
+// 5 * 10 = 20
+
+const lentele1 = '';
+const lentele2 = ``;
+
+
+const nulis = 0;
+const vienas = 1;
+const du = 2;
+const trys = 3;
+const keturi = 4;
+const penki = 5;
+const sesi = 6;
+const septyni = 7;
+const astuoni = 8;
+const devyni = 9;
+
+console.log(nulis);
+
+
+
+
+
+
