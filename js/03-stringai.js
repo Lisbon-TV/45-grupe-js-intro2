@@ -104,3 +104,25 @@ const labas = 'Labas\n\
 rytas,\n\
 Lietuva!';
 console.log(labas);
+
+console.clear();
+
+//final exc. and eg..
+
+const name = 'Martynas';
+const age = 99;
+const iLike1 = 'masinos';
+const iLike2 = 'gamta';
+const iLike3 = 'oro balionai';
+
+console.clear();
+
+// Sveiki, mano vardas [VARDAS], man yra [METAI] metai ir man labai patinka [KAS PATINKA], [KAS PATINKA] ir [KAS PATINKA]!
+
+// su ""
+const martynas = "Sveiki, mano vardas " + name + ", man yra " + age + " metai ir man labai patinka " + iLike1 + ", " + iLike2 + " ir " + iLike3 + "!";
+console.log(martynas);
+
+// su `
+const martis = `Sveiki, mano vardas ${name}, man yra ${age} metai ir man labai patinka ${iLike1}, ${iLike2} ir ${iLike3}!`;
+console.log(martis);
