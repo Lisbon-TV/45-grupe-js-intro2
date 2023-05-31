@@ -93,8 +93,8 @@ rytas,
 Lietuva!
 
 
-\n - new line (slenkasi eilute zemyn, bet lieka X-asyje (ten pat))
-\r - return (grizta i tos pacios eilutes prieki)
+\n - new line (slenkasi eilute zemyn, bet lieka X-asyje (ten pat), kaip eglute!)
+\r - return (grizta i tos pacios eilutes prieki) suploja kaip sumustini!
 \t - tab
 */
 
@@ -104,6 +104,11 @@ const labas = 'Labas\n\
 rytas,\n\
 Lietuva!';
 console.log(labas);
+
+/* const backtickHTML = `\ <--- cia bus is naujos eilutes
+\tab\<header>
+
+*/
 
 console.clear();
 
@@ -123,6 +128,9 @@ console.clear();
 const martynas = "Sveiki, mano vardas " + name + ", man yra " + age + " metai ir man labai patinka " + iLike1 + ", " + iLike2 + " ir " + iLike3 + "!";
 console.log(martynas);
 
-// su `
+// su ` , vietoj + naudojam ${}
 const martis = `Sveiki, mano vardas ${name}, man yra ${age} metai ir man labai patinka ${iLike1}, ${iLike2} ir ${iLike3}!`;
 console.log(martis);
+
+
+
