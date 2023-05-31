@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "homework": "nodemon ./js/04-homework.js",
     "stringai": "nodemon ./js/03-stringai.js",
     "numbers": "nodemon ./js/02-numbers.js",
     "console": "nodemon ./js/01-console.js",
