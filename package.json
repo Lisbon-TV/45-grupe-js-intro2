@@ -2,8 +2,11 @@
   "name": "45-grupe-js-intro2",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "main": "index.js",
   "scripts": {
+    "import": "nodemon ./js/06-import.js",
+    "boolean": "nodemon ./js/05-boolean.js",
     "homework": "nodemon ./js/04-homework.js",
     "stringai": "nodemon ./js/03-stringai.js",
     "numbers": "nodemon ./js/02-numbers.js",
