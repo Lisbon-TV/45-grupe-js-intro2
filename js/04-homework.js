@@ -36,6 +36,7 @@ const result10 = vienas * 10;
 //console.log(test);
 // 1 * 2 = 1 * 2
 
+/*
 constant test = `${vienas} * 1 = $(result1}
 ${vienas} * 2 = $(result2}
 ${vienas} * 3 = $(result3}
@@ -48,8 +49,32 @@ ${vienas} * 9 = $(result9}
 ${vienas} * 10 = $(result9}`;    
 
 console.log(test);
+console.clear();
+*/
 
+console.clear();
 
+const x = 1;
+const a = 1;
+const b = 2;
+const c = 3;
+const d = 4;
+const e = 5;
+const f = 6;
+const g = 7;
+const h = 8;
+const i = 9;
+const j = 10;
 
+const result1 = x * a;
+const result2 = x * b;
+const result3 = x * c;
+const result4 = x * d;
+const result5 = x * e;
+const result6 = x * f;
+const result7 = x * g;
+const result8 = x * h;
+const result9 = x * i;
+const result10 = x * j;
 
 console.clear();
