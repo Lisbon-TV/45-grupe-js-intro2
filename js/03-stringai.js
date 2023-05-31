@@ -34,7 +34,73 @@ console.log(fullName);
 const rekiam = 'Sveiki, as esu ' + firstName + '!'; // musu pvz Ona
 console.log(rekiam);
 
+//KABUTES
 
 
+console.log('---------------------------'); // bruksnys for visibility purposes only!
+
+// Vienguba kabute (').
+const kabute1 = "Vienguba kabute (').";
+console.log(kabute1);
+
+// Dviguba kabute (").
+const kabute2 = 'Dviguba kabute (").';
+console.log(kabute2);
+
+// Vienguba (') ir dviguba (") kabutes.
+// Vienguba (') ir dvi
+// guba (") kabutes.
+const kabute12 = "Vienguba (') ir dvi" + 'guba (") kabutes.';
+console.log(kabute12);
+
+// Vienguba (') ir dviguba (") kabutes. Backslash position: (\) pries ignoruoja funkcijas
+const kabute12_1 = 'Vienguba (\') ir dviguba (") kabutes.';
+const kabute12_2 = "Vienguba (') ir dviguba (\") kabutes.";
+const kabute12_3 = "Vienguba (\') ir dviguba (\") kabutes.";
+const kabute12_4 = 'Vienguba (\') ir dviguba (\") kabutes.';
+console.log(kabute12_1);
+console.log(kabute12_2);
+console.log(kabute12_3);
+console.log(kabute12_4);
+
+// Vienguba (') ir dviguba (") kabutes.
+const kabute3 = `Vienguba (') ir dviguba (") kabutes.`;
+console.log(kabute3);
+
+// Vienguba ('), dviguba (") ir backtick (`) kabutes. - Panaudojam backslash (\)
+
+const kabute4 = `Vienguba ('), dviguba (") ir backtick (\`) kabutes.`;
+console.log(kabute4);
 
 
+// Komentaras (//). 
+const comment1 = 'Komentaras (//).';
+const comment2 = "Komentaras (//).";
+console.log(comment1);
+console.log(comment2);
+
+// Backslash (\). Dvigubinam!
+const back1 = 'Backslash (\\).';
+const back2 = "Backslash (\\\\).";
+console.log(back1);
+console.log(back2);
+
+/*............ Isdestymas stulpeliu:.........
+
+
+Labas
+rytas,
+Lietuva!
+
+
+\n - new line (slenkasi eilute zemyn, bet lieka X-asyje (ten pat))
+\r - return (grizta i tos pacios eilutes prieki)
+\t - tab
+*/
+
+// eg....
+
+const labas = 'Labas\n\
+rytas,\n\
+Lietuva!';
+console.log(labas);
