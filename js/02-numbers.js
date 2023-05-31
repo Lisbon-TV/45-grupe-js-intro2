@@ -174,6 +174,83 @@ X -=3;
 X*= 5;
 */
 
+console.clear();
+
+//eg..   neleidzia vel x panaudoti -- ?? ----
+
+let y = 0;
+console.log(y);
+
+y = y + 1;
+console.log(y);
+
+y += 1;
+console.log(y);
+
+y += 1;
+console.log(y);
+
+// sitai galima perrasyti ir taip (su + 1 reiksmemis, t.y. padidinam vienu vienetu):
+
+y++;
+console.log(y);
+
+y++;
+console.log(y);
+
+// galima tada is karto y++ deti i console; kaip pvz su let z = 5:
+
+console.clear();
+
+let z = 5;
+console.log(z++);
+console.log(z++);
+console.log(z++);
+console.log(z++);
+
+// jei consoleje (m) poto (m++), tai pirma isspausdins, paskui padidins:
+
+console.clear();
+
+let m = 5;
+console.log(m);
+console.log(m++);
+console.log(m);  // ta pati reiksme 6 su (m) ir (m++)
+
+// n++ ir ++n: ""++"" pozicija paska kada printina ir spausdina
+// ++n pirma padidina, paskui spausdina
+// n++ atv.
+
+console.clear();
+
+let n = 5;
+
+++n;
+console.log(n);
+
+++n;
+console.log(n);
+
+++n;
+console.log(n);
+
+console.log(n);
+console.log(++n);
+console.log(n++);
+console.log(n--);
+console.log(n--);
+
+// n** neturi prasmes, dznt exist!
+// n// neturi prasmes, dznt exist!
+
+/* kvadratine saknis:
+
+pvz console.log(9 **0.5, 9); 3-ju saknis
+
+console.log(2 * 2 * 2 * 2, 2 ** 4);
+console.log(16 ** 0.25, 2)
+console.log(8 **0.33333333, 2);
+*/
 
 
 
