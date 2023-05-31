@@ -252,6 +252,27 @@ console.log(16 ** 0.25, 2)
 console.log(8 **0.33333333, 2);
 */
 
+// final exc.
+
+console.clear();
+
+const a = 8;  // skaiciai gali ir atsikartoti! no prob!
+const b = 9;
+const c = 10;
+
+const d = a + b + c;
+console.log(d);
+
+console.clear();
+
+const p1 = 10;
+const p2 = 2;
+const p3 = 8;
+const p4 = 4;
+const p5 = 6;
+
+const vidurkis = (p1 + p2 + p3 + p4 + p5) / 5;
+console.log(vidurkis);
 
 
 
