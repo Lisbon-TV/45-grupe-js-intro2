@@ -36,17 +36,9 @@ let devyni = 9;
 
 
 
-const test ='\
-vienas + " * 1 = " + 1 * 1\r\n\
-vienas + " * 2 = " + 2 * 1\r\n\
-vienas + " * 3 = " + 2 * 1\r\n\
-vienas + " * 4 = " + 2 * 1\r\n\
-vienas + " * 5 = " + 2 * 1\r\n\
-vienas + " * 6 = " + 2 * 1\r\n\
-vienas + " * 7 = " + 2 * 1\r\n\
-vienas + " * 8 = " + 2 * 1\r\n\
-vienas + " * 9 = " + 2 * 1\r\n\
-vienas + " * 2 = " + 2 * 1';
+const test = vienas + " * 1 = " + 1 * 1;
+
+
 
 
 

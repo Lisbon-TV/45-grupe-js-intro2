@@ -10,7 +10,10 @@ Teigiami/neigiami
 Mistiniai: Begalybes ir NaN (not-a-number)
 
 Aritmetiniai operatoriai:
-+, -, *, /
++, -, *, /, **
+
+Priskirimo operatoriai:
+=, +=, -=, *=, /=, **=
 
 Salia matematikos:
 (, )
@@ -89,10 +92,91 @@ console.log(pinige);
 pinige = pinige * 4;
 console.log(pinige);
 
-let index =0;
-console.log(index);
 
 console.clear();
 
-p1 + p2 +p3 
+let index =0;           // use let as constant will out error msg
+console.log(index);
+
+index = index + 1;      // = 0 + 1
+console.log(index);
+
+index = index + 2;      // = 1 + 2
+console.log(index);
+
+index = index + 3;      // = 3 + 3 
+console.log(index);
+
+// and so on...
+
+console.clear();
+
+let frog = 1;
+console.log(frog);
+
+
+frog = 5 + frog;
+console.log(frog);
+
+frog = frog + 10;
+console.log(frog);
+
+frog = frog + 1;
+frog = frog + 2;
+frog = frog + 3;
+frog = frog + 4;
+frog = frog + 5;
+console.log(frog);
+
+// Priskirimo operatoriai
+
+frog +=6;       // ??
+console.log(frog);
+
+frog +=12;
+console.log(frog);
+
+console.clear();
+
+// eg..
+
+let result = 10;
+console.log(result);
+
+result += 20;
+console.log(result);
+
+result -= 20;
+console.log(result);
+
+result /= 5;               // resultatas buv reiksme padalinti is 5
+console.log(result);
+
+result *= 5;
+console.log(result);
+
+result **= 2;           // reiksme pakelta 2-uoju
+console.log(result);
+
+// eg
+
+let x = 2;
+
+x = 4 * (x - 1);
+console.log(x);    //ats: 4
+
+/* Taciau galima naudoti, tik kai:
+
+kintamasis  = kintamasis (operatorius) skaicius
+kintamasis  operatorius) = skaicius
+
+X -=3;
+X*= 5;
+*/
+
+
+
+
+
+
 
