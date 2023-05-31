@@ -9,7 +9,7 @@
 //const lentele1 = '';
 //const lentele2 = ``;
 
-
+/*
 const vienas = 1;
 const du = 2;
 const trys = 3;
@@ -31,6 +31,7 @@ const result7 = vienas * 7;
 const result8 = vienas * 8;
 const result9 = vienas * 9;
 const result10 = vienas * 10; 
+*/
 
 //const test = vienas + " * 1 = " + 1 * 1;
 //console.log(test);
@@ -54,7 +55,12 @@ console.clear();
 
 console.clear();
 
-const x = 1;
+
+
+// Konstantai galimi abiem lentelem, jei iskomentuosim ?
+
+/*
+const x = 2;  // pagrindinis skaicius!
 const a = 1;
 const b = 2;
 const c = 3;
@@ -78,3 +84,24 @@ const result9 = x * i;
 const result10 = x * j;
 
 console.clear();
+
+// prima eilute:
+//const test = x + " * " + a + " = " + result1 + "\r\n\" +...   
+
+const line1 = x + " * " + a + " = " + result1;
+console.log(line1);
+*/
+
+const multiplier = 3;
+let number = 0;
+
+
+// const lentele3 =
+
+const userFirstName = 'Chuck';
+const lastName = 'Norris';
+
+
+//user abriviation
+const userAbr =`${userFirstName[0]}.${lastName[0]}.`;
+console.log(userAbr);
