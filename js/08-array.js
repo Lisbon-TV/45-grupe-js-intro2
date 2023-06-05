@@ -4,19 +4,19 @@ console.clear();
 // array - deklaruoja naujas reiksmes
 // masyvas turi buti monogeniskas, jei su skaiciais pradejai, tai ir toliau naudoti
 
-/*
-const abc = [a, b, c, d, e, f];
+
+const abc = ['a', 'b', 'c', 'd', 'e', 'f'];
 console.log(abc);
-*/
 
-/*
-const students = ['Jonas', 'Maryte', 'Martynas', 'Aliona'];
-console.log(studens);
-*/
+console.log();
 
-/*
-function suma(masybas) {
-    return masyvas[0] + masyvas[2] + masyvas[3];
+const studs = ['Jonas', 'Maryte', 'Martynas', 'Aliona'];
+console.log(studs);
+
+console.log();
+
+function suma(masyvas) {
+    return masyvas[0] + masyvas[1] + masyvas[2];
 }
 
 const a1 = [1, 2, 3];
@@ -31,9 +31,9 @@ const s3 = suma(a3);
 console.log(s1, '->', 6);
 console.log(s2, '->', 27);
 console.log(s3, '->', 15);
-*/
 
-console.clear();
+
+console.log();
 
 // Jonas: paskutinis pazymys yra 8.
 // Maryte: paskutinis pazymys yra 8.
@@ -48,6 +48,7 @@ const stud3 = 'Petras';
 const marks3 = [5, 6, 7];
 const stud4 = 'Ona';
 const marks4 = [5, 5, 5, 5, 5, 5, 5, 5];
+
 
 function studentIntro(name, marks) {
     const lastIndex = marks.length - 1;
