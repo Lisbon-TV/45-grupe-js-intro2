@@ -40,12 +40,12 @@ console.log('END');
 console.log('................');
 
 
-// Code nesting:
+// CODE NESTING:
 // Cia suvesk false ir true variacijas ir palygink!  
 
 
-const arSvieciaSaule = false;
-const arLyja = true;
+const arSvieciaSaule = true;
+const arLyja = false;
 let kaDaryti = 'Dar nezinau...';
 
 /*
@@ -67,6 +67,9 @@ if (arSvieciaSaule == true) {
 
 */
 
+// Kai norime isprintinti viena arba kita reiksme;
+// == priskiria ir palygina, cia galima ir nevartoti! 
+// Nes (arSvieciaSaule) - priskiria ir palygina by default!
 
 if (arSvieciaSaule == true) {
     console.log('Dabar yra diena');
@@ -83,23 +86,25 @@ if (arSvieciaSaule == true) {
        }
 }
 
-/*
+
 // arSvieciaSaule == true;
 // true == true
 // true
 
-console.log();
-
 // neigiamus palyginimu geriau nerasyti, nes juos suvokti yra sunkiau!
 // == palyginti 
 // = priskirti
-// visada naudoti const!
+// visada naudoti const! Nebent, kai tikrai zinai, kada keiti reiksmes!
+// su let true ir false gali rodyti nesamones!!
 
-if (arSvieciaSaule == false) {
+/*
+if (arSvieciaSaule == true) {
     console.log ('Dabar yra naktis');   
 }   else {
     console.log('Dabar yra diena');
 }
+*/
+
 
 console.log('................');
 console.log();
@@ -109,12 +114,12 @@ if (arLyja) {
 }   else {
     console.log('Skecio nereikia!');
 }
-*/
+
 
 // Reikia isspausdinti savaites dienos pavadinima. 
+// Sis variantas netinka, nes turi nodoti code nesting, ziur. kt. var.
 
 
-/*
 const day = 5;
 let weekday = 'Nezinau';
 
@@ -144,66 +149,70 @@ if(day == 7) {
 
 console.log(weekday);
 
-*/
+
+/* Reik isspausdinti savaites dienos pavadinima.
+console.log(kaDaryti);
 
 
-/*
-console.log();
+const day = 6;
+let weekday = '';
 
-if(day == 1) {
-    console.log('Pirmadiens');
-}else {
-        if(day == 2) {
-            console.log ('Antradienis');
+if (day == 1) {
+    weekday = 'Pirmadienis';
+} else {
+    if (day == 2) {
+        weekday = 'Antradienis';
+    } else {
+        if (day == 3) {
+            weekday = 'Treciadienis';
         } else {
-            if(day == 3) {
+            if (day == 4) {
+                weekday = 'Ketvirtadienis';
             } else {
-                    console.log ('Treciadiens');
-                    if(day == 4) {
-                    } else { 
-                            console.log('Ketvirtadiens');
-                            if(day == 5) {
-                            } else { 
-                                    console.log('Penktadienis');
-                                    if(day == 6) {
-                                    } else { 
-                                            console.log('Sestadienis');
-                                            if(day == 7) {
-                                              console.log(Sekmadiens);
-                                              } else {
-                                                        weekday = 'Tokios dienos saviteje nera!';
-                                                    }
-                                                }
-                                            
-                                        }
-                                    
-                                }
+                if (day == 5) {
+                    weekday = 'Penktadienis';
+                } else {
+                    if (day == 6) {
+                        weekday = 'Sestadienis';
+                    } else {
+                        if (day == 7) {
+                            weekday = 'Sekmadienis';
+                        } else {
+                            weekday = 'Tokios dienos savaiteje nera...';
                         }
-                } 
-        }                               
-  
+                    }
+                }
+            }
+        }
+    }
+}
 
 console.log(weekday);
 */
 
-const diena = 1;
-const kokiaDiena= '...';
+console.log(weekday);
 
-/*
-if (diena== 1) {
-    kokiaDiena ='pirma';
-    } else if (diena == 2) {
-        kokiaDiena = 'antra';
-        if (diena== 3) {
-            kokiaDiena ='trecia';
-            if (diena== 4) {
-                kokiaDiena ='ketvirta';
-                if (diena== 5) {
-                    kokiaDiena ='penkta';
-                    if (diena== 6) {
-                        kokiaDiena ='sesta';
-                        if (diena== 7) {
-                            kokiaDiena ='sekma';
-                            if (diena== 1) {
-                                kokiaDiena ='pirma';
-                                */
+console.log('###################');
+
+const diena = 6;
+let kokiaDiena = '...';
+
+if (diena == 1) {
+    kokiaDiena = 'pirma';
+} else if (diena == 2) {
+    kokiaDiena = 'antra';
+} else if (diena == 3) {
+    kokiaDiena = 'trecia';
+} else if (diena == 4) {
+    kokiaDiena = 'ketvirta';
+} else if (diena == 5) {
+    kokiaDiena = 'penkta';
+} else if (diena == 6) {
+    kokiaDiena = 'sesta';
+} else if (diena == 7) {
+    kokiaDiena = 'septinta';
+} else {
+    kokiaDiena = 'Nera tokios dienos...';
+}
+
+console.log(kokiaDiena);
