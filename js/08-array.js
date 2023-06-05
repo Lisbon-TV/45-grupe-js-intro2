@@ -15,6 +15,8 @@ console.log(studs);
 
 console.log();
 
+// Uzduotis: apskaiciuoti masyvo suma:
+
 function suma(masyvas) {
     return masyvas[0] + masyvas[1] + masyvas[2];
 }
@@ -34,6 +36,8 @@ console.log(s3, '->', 15);
 
 
 console.log();
+
+// Uzduotis: nurodyti studento paskutini pazymi:
 
 // Jonas: paskutinis pazymys yra 8.
 // Maryte: paskutinis pazymys yra 8.
