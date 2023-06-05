@@ -57,8 +57,21 @@ const marks4 = [5, 5, 5, 5, 5, 5, 5, 5];
 function studentIntro(name, marks) {
     const lastIndex = marks.length - 1;
     const lastMark = marks[lastIndex];
-    return `${name}: paskutinis pazymys yra ${lastMark}.`;
-}
+    return `${name}: paskutinis pazymys yra ${lastMark}.`;}
+
+/*
+
+function studentIntro(name, marks) {
+    return `${name}: paskutinis pazymys yra ${marks[marks.length -1].`;
+    }
+
+function studentIntro(name, marks) {
+    const lastIndex = marks.length - 1;
+    const lastMark = marks[lastIndex];
+    const `${name}: paskutinis pazymys yra ${lastMark}.`;
+    return ats;
+
+*/
 
 console.log(studentIntro(stud1, marks1));
 console.log(studentIntro(stud2, marks2));

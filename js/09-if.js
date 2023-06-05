@@ -1,12 +1,17 @@
-
 /*
+IF - palyginimas
+
+Palyginimo operatoriai:
+Visi: >, <, >=, <=, ==, !=, ===, !==
+Naudotini: >, <, >=, <=,  ===, !==
+Nenaudotini: ==, !=
+
 Sintakse:
 if () {}
-
-if () {
-else { }
-}
-
+if () {} else {}
+if () {} else if () {}
+if () {} else if () {} ...  else if () {}
+if () {} else if () {} ...  else if () {} else {}
 */
 
 
@@ -35,9 +40,15 @@ console.log('END');
 console.log('................');
 
 
-const arSvieciaSaule = true;
-const arLyja = false;
+// Code nesting:
+// Cia suvesk false ir true variacijas ir palygink!  
+
+
+const arSvieciaSaule = false;
+const arLyja = true;
 let kaDaryti = 'Dar nezinau...';
+
+/*
 
 if (arSvieciaSaule == true) {
     console.log('Dabar yra diena');
@@ -53,6 +64,8 @@ if (arSvieciaSaule == true) {
         kaDaryti = 'Zzzz';
        }
     }
+
+*/
 
 
 if (arSvieciaSaule == true) {
