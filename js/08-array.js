@@ -35,31 +35,51 @@ console.log(s3, '->', 15);
 
 console.clear();
 
-// Jonas: pask. pazymys 8.
-// Maryte: pask. pazymys 8.
-// Petras: pask. pazymys 7.
-// Ona: pask. pazymys 5.
+// Jonas: paskutinis pazymys yra 8.
+// Maryte: paskutinis pazymys yra 8.
+// Petras: paskutinis pazymys yra 7.
+// Ona: paskutinis pazymys yra 5.
 
 const stud1 = 'Jonas';
 const marks1 = [10, 2, 8, 2, 8, 2, 8];
-
 const stud2 = 'Maryte';
 const marks2 = [10, 9, 8];
-
 const stud3 = 'Petras';
 const marks3 = [5, 6, 7];
-
 const stud4 = 'Ona';
 const marks4 = [5, 5, 5, 5, 5, 5, 5, 5];
 
-function studentIntro (vardas, paskPazymys) {
-    return '$[studentas] paskutinis pazymys yra $[paskPazymys.length-1].'
+function studentIntro(name, marks) {
+    const lastIndex = marks.length - 1;
+    const lastMark = marks[lastIndex];
+    return `${name}: paskutinis pazymys yra ${lastMark}.`;
 }
 
-console.log(studentIntro('Jonas', paskPazymys.length -1));
-console.log(studentIntro('Maryte', paskPazymys.lenght-1));
-console.log(studentIntro('Petras', paskPazymys.lenght-1));
-console.log(studentIntro('Ona', paskPazymys.lenght-1));
+console.log(studentIntro(stud1, marks1));
+console.log(studentIntro(stud2, marks2));
+console.log(studentIntro(stud3, marks3));
+console.log(studentIntro(stud4, marks4));
 
+console.log();
 
+//Excercise: array with strings
+
+const animal1 = 'cat'; 
+const food1 = ['grass', 'meat', 'berries'];
+
+const animal2 = 'dog';
+const food2 = ['bone', 'meat', 'apple', 'water'];
+
+const animal3 = 'parrot';
+const food3 = ['seed', 'water', 'worms'];
+
+function supper(animal, meal) {
+    const lastIndex = meal.length - 1;
+    const lastMeal = meal[lastIndex];
+    return `The last supper of the ${animal} was ${lastMeal}!`
+}
+
+console.log(supper(animal1, food1));
+console.log(supper(animal2, food2));
+console.log(supper(animal3, food3));
 

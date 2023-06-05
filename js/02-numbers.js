@@ -240,8 +240,8 @@ console.log(n++);
 console.log(n--);
 console.log(n--);
 
-// n** neturi prasmes, dznt exist!
-// n// neturi prasmes, dznt exist!
+// n** neturi prasmes, dzn't exist!
+// n// neturi prasmes, dzn't exist!
 
 /* kvadratine saknis:
 
