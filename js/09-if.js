@@ -338,3 +338,58 @@ console.log(!false);
 console.log(!!false);
 
 console.log('---------------');
+
+// Uzduotis pilnametis:
+
+console.log('Pirmas budas:');
+
+function arPilnametis(amzius) {
+    if (amzius >= 18) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+console.log(arPilnametis(99), '-->', true);
+console.log(arPilnametis(9), '-->', false);
+console.log(arPilnametis(18), '-->', true);
+console.log(arPilnametis(17.99999), '-->', false);
+
+
+// Sutrumpintas budas be else {}:
+
+console.log('Antras budas:');
+
+function arPilnametis1(amzius) {
+    if (amzius >= 18) {
+        return true;
+    } 
+        return false;
+    }
+
+
+    console.log(arPilnametis1(99), '-->', true);
+    console.log(arPilnametis1(9), '-->', false);
+    console.log(arPilnametis1(18), '-->', true);
+    console.log(arPilnametis1(17.99999), '-->', false);
+    
+
+// Galima buvo naudoti paprasciausia funkcija:
+
+console.log('Trecias budas:')
+    
+    function arPilnametis2(amzius) {
+        return amzius >= 18;
+    }
+
+console.log(arPilnametis2(99), '-->', true);
+console.log(arPilnametis2(9), '-->', false);
+console.log(arPilnametis2(18), '-->', true);
+console.log(arPilnametis2(17.99999), '-->', false);
+
+console.log('---------------');
+
+
+
+
