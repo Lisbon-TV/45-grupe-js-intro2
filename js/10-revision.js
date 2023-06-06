@@ -29,6 +29,8 @@ if (arSvieciaSaule == true) {
 
 console.log();
 
+// Pica ar sokiai: 
+
 console.log(kaDaryti);
 
 const arAtvyks = false;
@@ -50,5 +52,29 @@ if (arAtvyks == true) {
 } 
 
 console.log(ruostiVakariene);
+
+console.log();
+
+// Nori - nenori, patinka - nepatinka:
+
+const arPatinka = false;
+const arNori = false;
+let atiduotiBilietus = 'Dar anksti pasakyti';
+
+if (arPatinka == true) {
+    if (arNori == true) {
+        atiduotiBilietus = 'Dovanosiu bilietus i Kresinio varzybas';
+    } else {
+        atiduotiBilietus = 'Paklausiu, kodel ne? Gal vis delto nores?';
+    }
+} else {
+    if (arNori == true) {
+        atiduotiBilietus = 'Dovanosiu bilietus, gal patiks!';
+    } else {
+        atiduotiBilietus = 'Pasiliksiu sau!';
+    }
+}
+
+console.log(atiduotiBilietus);
 
 console.log();
