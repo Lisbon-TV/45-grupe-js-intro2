@@ -90,13 +90,66 @@ console.log();
 
 // Code nesting: isprintinti menesio pavadinima pagal skaciu metuose:
 
-const number = 1;
+const number = 13;
 let month = '';
 
-if (month == 1) {
+// if (month == 1) {
+//     month = 'January';
+// } else {
+//     month = 'Febuary';
+// }
+// console.log(month);
+
+if (number == 1) {
     month = 'January';
 } else {
-    month = 'Febuary';
+    if (number == 2) {
+        month = 'February';
+    } else {
+        if (number == 3) {
+            month = 'March';
+        } else {
+            if (number == 4) {
+                month = 'Arpil';
+            } else {
+                if (number == 5) {
+                    month = 'May';
+                } else {
+                    if (number == 6) {
+                        month = 'June';
+                    } else {
+                        if (number == 7) {
+                            month = 'July';
+                        } else {
+                            if (number == 8) {
+                                month = 'August';
+                            } else {
+                                if (number == 9) {
+                                    month = 'September';
+                                } else {
+                                    if (number == 10) {
+                                        month = 'October';
+                                    } else {
+                                        if (number == 11) {
+                                            month = 'November';
+                                        } else {
+                                            if (number == 12) {
+                                                month = 'December';
+                                            } else {
+                                                month = "There's no number assigned to this month!"; 
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
 
 console.log(month);
+
+console.log();
