@@ -216,3 +216,125 @@ if (diena == 1) {
 }
 
 console.log(kokiaDiena);
+
+// ! === !==
+
+console.log();
+
+const penki = 5;
+const five = '5';
+
+if (penki == five) {
+    console.log('Taip!');
+}   else {
+    console.log('Ne!');
+}
+
+// priskiria ir palygina:
+
+if (5 === '5') {
+    console.log('Taip');
+} else {
+    console.log('Ne');
+}
+
+// vietoj ! sakyti ne
+
+if (5 !== '5') {
+    console.log('DABAR...');
+} else {
+    console.log('priesingai!!!');
+}
+
+console.log('...................');
+
+// Uzduotis su kebabu:
+
+const isTasty = false;
+const hasSouce = true;
+let kebab = '🥙';
+
+// pirmas budas: aiskiau suprasti pati koda:
+
+// if (isTasty) {
+//     if (hasSouce) {
+//         kebab = 'Perkam!!!';
+//     } else {
+//         kebab = 'Perkam ir be padazo!!!';
+//     }
+// } else {
+//     if (hasSouce) {
+//         kebab = 'Geriam tik padaza...';
+//     } else {
+//         kebab = 'Lieku alkanas 😭';
+//     }
+// }
+// 
+// console.log(kebab);
+
+// antras budas:
+
+if (isTasty && hasSouce) {
+    kebab = 'Perkam!!!';
+} else if (isTasty && hasSouce === false) {
+    kebab = 'Perkam ir be padazo!!!';
+} else if (isTasty === false && hasSouce) {
+    kebab = 'Geriam tik padaza...';
+} else if (isTasty === false && hasSouce === false) {
+    kebab = 'Lieku alkanas 😭';
+}
+
+console.log(kebab);
+
+// Uzduotis: tiesa ar melas:
+
+console.log();
+
+const tiesa = true;
+
+if (tiesa) {
+    console.log('Yra tiesa!');
+} else {
+    console.log('Melas...');
+}
+
+if (!tiesa) {
+    console.log('Melas...');
+} else {
+    console.log('Yra tiesa!');
+}
+
+console.log();
+
+const melas = false;
+
+if (melas === false) {
+    console.log('-> Yra tiesa!');
+} else {
+    console.log('-> Melas...');
+}
+
+if (!melas) {
+    console.log('-> Yra tiesa!');
+} else {
+    console.log('-> Melas...');
+}
+
+// True ir false pratimai:
+
+console.log(true);
+console.log(!true);
+
+console.log(false);
+console.log(!false);
+
+console.log();
+
+// vartotini tik ! arba !! sauktukai, kiti neturi prasmes!
+// lyginis skaicius sauktuku serijoje susiprastina iki nulio!
+
+console.log(false);
+console.log(!false);
+console.log(!!false);
+
+console.log('---------------');
