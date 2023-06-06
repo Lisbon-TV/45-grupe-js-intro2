@@ -6,6 +6,8 @@ Visi: >, <, >=, <=, ==, !=, ===, !==
 Naudotini: >, <, >=, <=,  ===, !==
 Nenaudotini: ==, !=
 
+VISDA NAUDOTI ===, vietoj: ==!!!!!!!
+
 Sintakse:
 if () {}
 if () {} else {}
@@ -13,8 +15,6 @@ if () {} else if () {}
 if () {} else if () {} ...  else if () {}
 if () {} else if () {} ...  else if () {} else {}
 */
-
-
 
 console.clear();
 
@@ -40,8 +40,9 @@ console.log('END');
 console.log('................');
 
 
-// CODE NESTING:
-// Cia suvesk false ir true variacijas ir palygink!  
+// CODE NESTING:  //
+
+// Cia, suvesk false ir true variacijas ir palygink!  
 
 
 const arSvieciaSaule = true;
@@ -150,12 +151,13 @@ if(day == 7) {
 console.log(weekday);
 
 
-/* Reik isspausdinti savaites dienos pavadinima.
+/* Reikia isspausdinti savaites dienos pavadinima.
 console.log(kaDaryti);
 
 
 const day = 6;
-let weekday = '';
+let weekday = '';   // --- >sita reiskme kol kas nedomina, 
+                    //      nes if atspausdins mums reikalinga!
 
 if (day == 1) {
     weekday = 'Pirmadienis';
@@ -251,19 +253,19 @@ console.log('...................');
 // Uzduotis su kebabu:
 
 const isTasty = false;
-const hasSouce = true;
+const hasSauce = true;
 let kebab = '🥙';
 
 // pirmas budas: aiskiau suprasti pati koda:
 
 // if (isTasty) {
-//     if (hasSouce) {
+//     if (hasSauce) {
 //         kebab = 'Perkam!!!';
 //     } else {
 //         kebab = 'Perkam ir be padazo!!!';
 //     }
 // } else {
-//     if (hasSouce) {
+//     if (hasSauce) {
 //         kebab = 'Geriam tik padaza...';
 //     } else {
 //         kebab = 'Lieku alkanas 😭';
@@ -274,13 +276,13 @@ let kebab = '🥙';
 
 // antras budas:
 
-if (isTasty && hasSouce) {
+if (isTasty && hasSauce) {
     kebab = 'Perkam!!!';
-} else if (isTasty && hasSouce === false) {
+} else if (isTasty && hasSauce === false) {
     kebab = 'Perkam ir be padazo!!!';
-} else if (isTasty === false && hasSouce) {
+} else if (isTasty === false && hasSauce) {
     kebab = 'Geriam tik padaza...';
-} else if (isTasty === false && hasSouce === false) {
+} else if (isTasty === false && hasSauce === false) {
     kebab = 'Lieku alkanas 😭';
 }
 
@@ -330,7 +332,7 @@ console.log(!false);
 
 console.log();
 
-// vartotini tik ! arba !! sauktukai, kiti neturi prasmes!
+// vartotini sauktukai, tik: ! arba !!, kiti - neturi prasmes!
 // lyginis skaicius sauktuku serijoje susiprastina iki nulio!
 
 console.log(false);
