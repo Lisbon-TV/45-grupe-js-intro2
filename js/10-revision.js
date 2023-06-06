@@ -201,8 +201,71 @@ const numbers = [10, -7, 5, 77, 13, -9, 0, 14];
 // m4:2 -> 3
 // m4:3 -> 2
 
+
+// for(let i = 0; i < masyvas1.length; i++) {
+//     if(masyvas1[i] === 1)
+//       console.log('Skaicius yra vienas');
+// }
+console.log('................');
+
 const masyvas1 = [1, 1, 1];
+
+let map1 = {};                                                          
+for (let i = 0; i < masyvas1.length; i++) {
+    if (!map1[masyvas1[i]]){
+        map1[masyvas1[i]] = 1 
+    } else {
+        map1[masyvas1[i]] += 1 
+    }
+}
+console.log(map1);
+
+console.log();
+
+let map2 = {}; 
+
 const masyvas2 = [1, 2, 2, 3];
+
+let map = {};                                                          
+for (let i = 0; i < masyvas2.length; i++) {
+    if (!map2[masyvas2[i]]){
+        map2[masyvas2[i]] = 1 
+    } else {
+        map2[masyvas2[i]] += 1 
+    }
+}
+console.log(map2);
+
+console.log();
+
+
 const masyvas3 = [5, 4, 3, 2, 1];
+
+let map3 = {};                                                          
+for (let i = 0; i < masyvas2.length; i++) {
+    if (!map3[masyvas3[i]]){
+        map3[masyvas3[i]] = 1 
+    } else {
+        map3[masyvas3[i]] += 1 
+    }
+}
+console.log(map3);
+
+console.log();
+
+
 const masyvas4 = [5, 4, 3, 2, 1, 1, 1, 1, 1, 2, 2, 3];
+
+let map4 = {};                                                          
+for (let i = 0; i < masyvas2.length; i++) {
+    if (!map4[masyvas4[i]]){
+        map4[masyvas4[i]] = 1 
+    } else {
+        map4[masyvas4[i]] += 1 
+    }
+}
+console.log(map4);
+console.log('................');
+
+
 
