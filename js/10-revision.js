@@ -57,6 +57,15 @@ console.log();
 
 // Nori - nenori, patinka - nepatinka:
 
+/* Sintakse:
+(pirmas if'as)Jei patinka (Krepsinis)
+    ir, jei nori bilietu, tada -> ka, daryti?
+    antraip, (patinka, bet nenori), tada -> ka, daryti?
+(pirmas if'as)Taciau /kitaip, 
+    jei (ne)patinka - >
+    ir nenori. 
+*/
+
 const arPatinka = false;
 const arNori = false;
 let atiduotiBilietus = 'Dar anksti pasakyti';
@@ -78,3 +87,16 @@ if (arPatinka == true) {
 console.log(atiduotiBilietus);
 
 console.log();
+
+// Code nesting: isprintinti menesio pavadinima pagal skaciu metuose:
+
+const number = 1;
+let month = '';
+
+if (month == 1) {
+    month = 'January';
+} else {
+    month = 'Febuary';
+}
+
+console.log(month);
