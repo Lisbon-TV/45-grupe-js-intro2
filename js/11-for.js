@@ -1,4 +1,5 @@
-console.clear();
+console.log('................');
+
 
 /*
 
@@ -13,6 +14,8 @@ for (1;2;3) {     // -> po antro kablelio infinate loop, delto nenaudoti auto-sa
 (a.k.a., tai kelintas dabar kartas?)
 2) ar kartoti? jei tenkina - kartojam, jei ne- baigiam.
 3) tai kaip keisti 1) dalies kintamaji
+
+i -> iteration, galime naudoti ir kt.!
 
 */
 
@@ -33,21 +36,24 @@ console.log('................');
 
 for (let i = 0; i < 5; i = i + 1) {
     // console.log(text);
-    console.log(i, text);
+    console.log(text);
+    console.log();
+    console.log(i, text); // cia pridejom i -musu atsikartojamaji kintama!
 }
 
 console.log('................');
 
 
-for (let i = 10; i < 17; i = i + 1) {
-    console.log(`${i}), va ir tiek...`);
+for (let i = 10; i < 17; i = i + 2) {   // cia pasikartojom + 2
+    console.log(`${i}), va ir tiek...`); // cia: skliaustelis - teksto dalis!
 }
 
 console.log('................');
 
+// Sis pvz. - for'o 'Tevu Tevas'!!!
 
-for (let x=0; x<=5; x++) {   // dazniausiai ++ bus gale
-    console.log(x + '...');
+for (let x=0; x<=5; x++) {   // dazniausiai ++ bus gale, bet galime ir priekyje (reciau)!
+    console.log(x + '...');  // <=, cia: lygu, reiskia 'imtinai'!
 }
 
 console.log('................');
@@ -71,18 +77,20 @@ console.log('................');
 
 // kokia yra skaiciu suma nurodytame intervale (imtiniai)?
 
+
+//        START * END * STEP !!!!!
+console.log('START * END * STEP');
+
 const start = 0;
 const end = 10 ;
-const step = 1;
+const step = 2;
 let sum = 0;
 
 // for (let i=0; i<=10; i++) {
 //     console.log(i);
 // }
 
-console.log('................');
-
-for (let i = start; i <= end; i += step) {
+for (let i = start; i <= end; i += step) { //before step: -> i++! padideja + 1;
     sum += i;
     console.log('->', i, sum);
 }
@@ -138,7 +146,8 @@ let kiek = 0;
 
  console.log('Kiek:', kiek)
 
- console.clear();
+ console.log('................');
+
 
  /* 
  Kiek yra zodziu, kurie trumpesni, nei "Labas"?
@@ -197,22 +206,3 @@ console.log('Tokio pat ilgio zodziu:', toksPat);
 console.log('Ilgesniu zodziu:', ilgu);
 
 console.log();
-
-
-// ## UZDUOTIS:
-// Kiek duotas masyvas turi ieskomo skaiciaus atveju (kiekio)?
-// m1:1 -> 3
-// m1:2 -> 0
-// m1:3 -> 0
-// m2:1 -> 1
-// m2:2 -> 2
-// m2:3 -> 1
-// m4:1 -> 5
-// m4:2 -> 3
-// m4:3 -> 2
-
-const masyvas1 = [1, 1, 1];
-const masyvas2 = [1, 2, 2, 3];
-const masyvas3 = [5, 4, 3, 2, 1];
-const masyvas4 = [5, 4, 3, 2, 1, 1, 1, 1, 1, 2, 2, 3];
-
