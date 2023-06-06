@@ -27,4 +27,28 @@ if (arSvieciaSaule == true) {
     }
 }
 
+console.log();
+
 console.log(kaDaryti);
+
+const arAtvyks = false;
+const busAlkanas = true;
+let ruostiVakariene = '';
+
+if (arAtvyks == true) {
+    if (busAlkanas == true) {
+    ruostiVakariene = 'Pakviesk i restorana!';
+} else {
+    ruostiVakariene = 'Pietausiu namuose.'
+}
+} else {
+    if(busAlkanas == true) {
+        ruostiVakariene = 'Pietausime picerijoje'
+    } else {
+        ruostiVakariene = 'Eisim i sokius!';
+    }
+} 
+
+console.log(ruostiVakariene);
+
+console.log();
