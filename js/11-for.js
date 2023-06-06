@@ -126,11 +126,9 @@ for (let i = 0; i < marks.length; i++) {
  const totalMarks = marks.length;
  const mean = sumOfMarks / totalMarks;
 
- console.log(`The mean of total marks is  ${mean}`);
+console.log(`The mean of total marks is  ${mean}`);
 
- console.log('................');
-
- // Kiek skaiciu yra teigiamu?
+ // Kiek skaiciu yra neigiamu?
 //                0   1  2   3   4  5   6   7
 const numbers = [10, -7, 5, 77, 13, -9, 0, 14];
 let kiek = 0;
@@ -140,11 +138,20 @@ let kiek = 0;
         if (number >=0) {
             kiek++;
     } else {
-        console.log('Nieko nedarau, ness..', number);
+        console.log('Nieko nedarau, nes..', number);
     }
  }
 
- console.log('Kiek:', kiek)
+console.log('...................');
+ console.log('Neigiamu skaiciu yra:', kiek);
+
+ /*
+ VISADA NAUDOTINAS SABLONAS:
+
+ const list [];
+ for (let i = 0; i < list.length, i ++) {
+    const item = list[1];
+ }
 
  console.log('................');
 
@@ -155,6 +162,9 @@ let kiek = 0;
  Kiek yra zodziu, kurie yra tokio pat ilgio, nei "Labas"?
  Pavyzdinis zodis gali buti kintamas. 
  */
+
+ console.log('................');
+
 
  const dictionary = ['Labas', 'rytas', 'sakau', 'tau', 'mano', 'mielas', 'mieste', 'Ka', 'tu', 'ka', 'vakare'];
 
