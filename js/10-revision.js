@@ -153,3 +153,56 @@ if (number == 1) {
 console.log(month);
 
 console.log();
+
+
+// Reikia isspausdinti visus teigiamus lyginius vienazenklius skaicius. 
+// 0, 2, 4, 6, 8
+
+
+// Reikia isspausdinti visus teigiamus lyginius vienazenklius skaicius atbuline tvarka. 
+// 8, 6, 4, 2, 0
+
+
+// kokia yra skaiciu suma nurodytame intervale (imtiniai)?
+
+// const start = 0;
+// const end = 10 ;
+// const step = 1;
+
+// Uzduotis: Koks pazymiu vidurkis:
+// SIA UZDUOTI REIKIA, NAKTI PAZADINUS, SUPRASTI!!!
+
+const marks = [10, 2, 5, 4, 6];
+
+
+ // Kiek skaiciu yra teigiamu?
+//                0   1  2   3   4  5   6   7
+const numbers = [10, -7, 5, 77, 13, -9, 0, 14];
+
+
+ /* 
+ Kiek yra zodziu, kurie trumpesni, nei "Labas"?
+ Kiek yra zodziu, kurie ilgesni, nei "Labas"?
+ Kiek yra zodziu, kurie yra tokio pat ilgio, nei "Labas"?
+ Pavyzdinis zodis gali buti kintamas. 
+ */
+
+ const dictionary = ['Labas', 'rytas', 'sakau', 'tau', 'mano', 'mielas', 'mieste', 'Ka', 'tu', 'ka', 'vakare'];
+
+// ## UZDUOTIS:
+// Kiek duotas masyvas turi ieskomo skaiciaus atveju (kiekio)?
+// m1:1 -> 3
+// m1:2 -> 0
+// m1:3 -> 0
+// m2:1 -> 1
+// m2:2 -> 2
+// m2:3 -> 1
+// m4:1 -> 5
+// m4:2 -> 3
+// m4:3 -> 2
+
+const masyvas1 = [1, 1, 1];
+const masyvas2 = [1, 2, 2, 3];
+const masyvas3 = [5, 4, 3, 2, 1];
+const masyvas4 = [5, 4, 3, 2, 1, 1, 1, 1, 1, 2, 2, 3];
+
