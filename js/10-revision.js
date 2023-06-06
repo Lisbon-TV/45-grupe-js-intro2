@@ -210,23 +210,21 @@ console.log('................');
 
 const masyvas1 = [1, 1, 1];
 
-let map1 = {};                                                          
+let map = {};                                                          
 for (let i = 0; i < masyvas1.length; i++) {
-    if (!map1[masyvas1[i]]){
-        map1[masyvas1[i]] = 1 
+    if (!map[masyvas1[i]]){
+        map[masyvas1[i]] = 1 
     } else {
-        map1[masyvas1[i]] += 1 
+        map[masyvas1[i]] += 1 
     }
 }
-console.log(map1);
+console.log(map);
 
 console.log();
 
-let map2 = {}; 
-
 const masyvas2 = [1, 2, 2, 3];
 
-let map = {};                                                          
+let map2 = {};                                                          
 for (let i = 0; i < masyvas2.length; i++) {
     if (!map2[masyvas2[i]]){
         map2[masyvas2[i]] = 1 
@@ -257,7 +255,7 @@ console.log();
 const masyvas4 = [5, 4, 3, 2, 1, 1, 1, 1, 1, 2, 2, 3];
 
 let map4 = {};                                                          
-for (let i = 0; i < masyvas2.length; i++) {
+for (let i = 0; i < masyvas4.length; i++) {
     if (!map4[masyvas4[i]]){
         map4[masyvas4[i]] = 1 
     } else {
