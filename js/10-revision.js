@@ -255,7 +255,7 @@ console.log();
 const masyvas4 = [5, 4, 3, 2, 1, 1, 1, 1, 1, 2, 2, 3];
 
 let map4 = {};                                                          
-for (let i = 0; i < masyvas4.length; i++) {
+for (let i = 0; i < masyvas4.length; i+= step) {
     if (!map4[masyvas4[i]]){
         map4[masyvas4[i]] = 1 
     } else {
@@ -265,5 +265,24 @@ for (let i = 0; i < masyvas4.length; i++) {
 console.log(map4);
 console.log('................');
 
-
+// Natalijos pav... 
+/*
+const masyvas2 = [1, 2, 2, 3];
+let x = 0;
+let du = 0;
+let tris = 0;
+for (let i = 0; i < masyvas2.length; i++) {
+   if(masyvas2[i] === 1){
+    x++; } 
+else if (masyvas2[i] === 2) {
+du++;
+} 
+else if (masyvas2[i] === 3) {
+    tris++;
+    } 
+}
+ console.log(m2:1=, x);
+ console.log(m2:2=, du);
+ console.log(m2:3=, tris);
+*/
 

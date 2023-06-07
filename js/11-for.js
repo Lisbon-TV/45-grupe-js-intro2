@@ -143,7 +143,7 @@ let kiek = 0;
  }
 
 console.log('...................');
- console.log('Neigiamu skaiciu yra:', kiek);
+console.log('Neigiamu skaiciu yra:', kiek);
 
  /*
  VISADA NAUDOTINAS SABLONAS:

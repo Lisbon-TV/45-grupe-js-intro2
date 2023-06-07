@@ -22,11 +22,13 @@ const a = 7;
 let b = 5; // jei 55 neprintins!
 
 console.log('START');
+console.log();
 
 if (a > b) {
     console.log('Daugiau (a > b)');
 }
 
+console.log();
 
 b = 55;
 if (a > b) {
@@ -35,6 +37,7 @@ if (a > b) {
     console.log('Ne daugiau...');
 }
 
+console.log();
 console.log('END');
 
 console.log('................');
