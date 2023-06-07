@@ -6,6 +6,7 @@
   "main": "index.js",
   "scripts": {
     "multiply": "nodemon ./mini/multiply.js",
+    "typeof": "nodemon ./js/12-typeof.js",
     "for": "nodemon ./js/11-for.js",
     "revision": "nodemon ./js/10-revision.js",
     "if": "nodemon ./js/09-if.js",
