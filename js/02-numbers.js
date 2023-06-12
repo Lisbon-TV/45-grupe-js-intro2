@@ -292,5 +292,11 @@ console.log(intervale(0, 1000_000_000_000));
 console.log(intervale(0, 1000_000_000_000_000));
 console.log(intervale(0, 1000_000_000_000_000_000));
 
+console.log('...............');
+// dalyba be liekanos!! 
 
+console.log(10 / 5);
+console.log(10 % 5);
 
+console.log(11 / 5);
+console.log(11 % 5);
