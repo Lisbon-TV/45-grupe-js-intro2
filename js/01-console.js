@@ -37,3 +37,9 @@ comment */
     comment
 */
 
+/* !!!! trumpalaike terminalo deze:
+
+1) atsidaryti nauja bash terminale, 
+2) Yrasyti  node .. ir paleisti, 
+3) pradeti > . 
+
