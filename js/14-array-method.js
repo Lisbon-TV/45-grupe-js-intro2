@@ -1,5 +1,5 @@
 /*
-Kuriuos butina moketi:
+(BUTINA!!) moketi mintinai:
 - at
 - flat
 - includes
@@ -40,7 +40,7 @@ console.log([1, 2, 3].includes(2), '->', true);
 console.log([1, 2, 3].includes(3), '->', true);
 console.log([1, 2, 3].includes(4), '->', false);
 
-
+// creating your own method, or a peak in how it's been created:
 Array.prototype.max = function max() {
     let res = -Infinity;
 
@@ -105,7 +105,7 @@ function numberLength(number) {
     return ('' + number).length;
 }
 
-console.log(numberLength(5), '->', 1)
+console.log(numberLength(5), '->', 1)  // skaiciai ivilkti i skliaustelius!
 console.log(numberLength(12), '->', 2)
 console.log(numberLength(9999), '->', 4)
 
@@ -117,8 +117,13 @@ console.log((5).length(), '->', 1)
 console.log((12).length(), '->', 2)
 console.log((9999).length(), '->', 4)
 
-console.clear();
+///////////////////////////////////////
+console.log();
+console.log('Typical array methods:')
+console.log();
+///////////////////////////////////////
 
+console.log('flat');
 const double = [
     5,
     4,
@@ -131,37 +136,42 @@ console.log(double.flat());
 console.log(double.flat().flat());
 console.log(double.flat(2));
 
-console.clear();
-
 const masyvas = [10, 2, 8, 4, 6];
 
+console.log('at');
 console.log(masyvas.at(1));
 console.log(masyvas.at(-1));
 
+console.log('join');
 console.log(masyvas.join());
 console.log(masyvas.join('-'));
 console.log(masyvas.join(' '));
 console.log(masyvas.join(' -==- '));
 
+console.log('push');
 const last1 = masyvas.push(10);
 console.log(masyvas, last1);
 
 const last2 = masyvas.pop();
 console.log(masyvas, last2);
 
+console.log('shift');
 const last3 = masyvas.shift();
 console.log(masyvas, last3);
 
-const last4 = masyvas.unshift(0);
+console.log('unshift');
+const last4 = masyvas.unshift(0); //???
 console.log(masyvas, last4);
 
+console.log('reverse');
 masyvas.reverse();
-console.log(masyvas);
+console.log(masyvas);       // reversina, pateikia is galo i prieki. 
 
-const x = masyvas.slice(1, -1);
+console.log('slice');
+const x = masyvas.slice(1, -1); // pirma numetem ir paskutini numetem
 console.log(x);
 
-console.log('--------------');
+console.log('splice');
 console.log(masyvas);
-const y = masyvas.splice(2, 2, 'x', 'y', 'z');
+const y = masyvas.splice(2, 2, 'x', 'y', 'z'); // nuo kelinto, uz keliu iterpt, ka iterpti: x y z.
 console.log(y, masyvas);
