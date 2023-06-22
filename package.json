@@ -5,6 +5,7 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
+    "ternary": "nodemon ./js/17-ternary.js",
     "destructuring": "nodemon ./js/17-destructuring.js",   
     "arrow": "nodemon ./js/16-arrow.js",
     "loops": "nodemon ./js/15-loops.js",
